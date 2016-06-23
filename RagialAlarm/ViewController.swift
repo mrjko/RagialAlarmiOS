@@ -129,7 +129,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate,
     
     func startTimer(){
         alarmedItems = vendItems
-        timer = NSTimer.scheduledTimerWithTimeInterval(180, target: self, selector: #selector(updateVendItems), userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: #selector(updateVendItems), userInfo: nil, repeats: true)
         isAlarmSet = true
         setAlarmBtn.setTitle("Alarm is set", forState: UIControlState.Normal)
     }
@@ -145,10 +145,16 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate,
         let parseItems = VendURLParser(u: parseChar.getVendingURL())
         vendItems = parseItems.getVendingItems()
         if (alarmedItems.getTotalQuantity() != vendItems.getTotalQuantity()){
-            print("NOTIFY THE USER THAT SOMETHING HAS BEEN SOLD!")
-        } else {
-            print("NOTHING HAS BEEN SOLD")
+            notifyUser()
         }
+    }
+    
+    func notifyUser(){
+        let notification = UILocalNotification()
+        notification.alertBody = "Item has been sold!"
+        notification.alertTitle = "Ragial Alarm"
+        notification.soundName = UILocalNotificationDefaultSoundName
+        UIApplication.sharedApplication().scheduleLocalNotification(notification)
     }
 
 }
