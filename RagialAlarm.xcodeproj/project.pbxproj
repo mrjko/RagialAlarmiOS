@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7028B7361D131F7D00CF55F6 /* VendURLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028B7351D131F7D00CF55F6 /* VendURLParser.swift */; };
+		70B2458E1D12389000A54286 /* CharacterURLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2458D1D12389000A54286 /* CharacterURLParser.swift */; };
+		70B245901D123BC800A54286 /* ROItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2458F1D123BC800A54286 /* ROItem.swift */; };
+		70B245921D123BD200A54286 /* ROItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B245911D123BD200A54286 /* ROItems.swift */; };
+		70B2459A1D124D1900A54286 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B245951D124D1900A54286 /* CSS.swift */; };
+		70B2459B1D124D1900A54286 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B245961D124D1900A54286 /* Kanna.swift */; };
+		70B2459C1D124D1900A54286 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B245971D124D1900A54286 /* libxmlHTMLDocument.swift */; };
+		70B2459D1D124D1900A54286 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B245981D124D1900A54286 /* libxmlHTMLNode.swift */; };
+		70B2459E1D124D1900A54286 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B245991D124D1900A54286 /* libxmlParserOption.swift */; };
 		70F8297A1D0B6D350073AAE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F829791D0B6D350073AAE4 /* AppDelegate.swift */; };
 		70F8297C1D0B6D350073AAE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8297B1D0B6D350073AAE4 /* ViewController.swift */; };
 		70F8297F1D0B6D350073AAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F8297D1D0B6D350073AAE4 /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7028B7351D131F7D00CF55F6 /* VendURLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendURLParser.swift; sourceTree = "<group>"; };
+		70B2458D1D12389000A54286 /* CharacterURLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterURLParser.swift; sourceTree = "<group>"; };
+		70B2458F1D123BC800A54286 /* ROItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROItem.swift; sourceTree = "<group>"; };
+		70B245911D123BD200A54286 /* ROItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROItems.swift; sourceTree = "<group>"; };
+		70B245951D124D1900A54286 /* CSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = "../../../Kanna-master/Sources/CSS.swift"; sourceTree = "<group>"; };
+		70B245961D124D1900A54286 /* Kanna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = "../../../Kanna-master/Sources/Kanna.swift"; sourceTree = "<group>"; };
+		70B245971D124D1900A54286 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = "../../../Kanna-master/Sources/libxmlHTMLDocument.swift"; sourceTree = "<group>"; };
+		70B245981D124D1900A54286 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = "../../../Kanna-master/Sources/libxmlHTMLNode.swift"; sourceTree = "<group>"; };
+		70B245991D124D1900A54286 /* libxmlParserOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = "../../../Kanna-master/Sources/libxmlParserOption.swift"; sourceTree = "<group>"; };
 		70F829761D0B6D350073AAE4 /* RagialAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagialAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F829791D0B6D350073AAE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F8297B1D0B6D350073AAE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +115,16 @@
 		70F829781D0B6D350073AAE4 /* RagialAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				70B245951D124D1900A54286 /* CSS.swift */,
+				7028B7351D131F7D00CF55F6 /* VendURLParser.swift */,
+				70B245961D124D1900A54286 /* Kanna.swift */,
+				70B245971D124D1900A54286 /* libxmlHTMLDocument.swift */,
+				70B245981D124D1900A54286 /* libxmlHTMLNode.swift */,
+				70B245991D124D1900A54286 /* libxmlParserOption.swift */,
 				70F829791D0B6D350073AAE4 /* AppDelegate.swift */,
+				70B2458D1D12389000A54286 /* CharacterURLParser.swift */,
+				70B2458F1D123BC800A54286 /* ROItem.swift */,
+				70B245911D123BD200A54286 /* ROItems.swift */,
 				70F8297B1D0B6D350073AAE4 /* ViewController.swift */,
 				70F8297D1D0B6D350073AAE4 /* Main.storyboard */,
 				70F829801D0B6D350073AAE4 /* Assets.xcassets */,
@@ -256,8 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7028B7361D131F7D00CF55F6 /* VendURLParser.swift in Sources */,
 				70F8297C1D0B6D350073AAE4 /* ViewController.swift in Sources */,
+				70B245921D123BD200A54286 /* ROItems.swift in Sources */,
 				70F8297A1D0B6D350073AAE4 /* AppDelegate.swift in Sources */,
+				70B2459D1D124D1900A54286 /* libxmlHTMLNode.swift in Sources */,
+				70B2458E1D12389000A54286 /* CharacterURLParser.swift in Sources */,
+				70B2459E1D124D1900A54286 /* libxmlParserOption.swift in Sources */,
+				70B245901D123BC800A54286 /* ROItem.swift in Sources */,
+				70B2459A1D124D1900A54286 /* CSS.swift in Sources */,
+				70B2459B1D124D1900A54286 /* Kanna.swift in Sources */,
+				70B2459C1D124D1900A54286 /* libxmlHTMLDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +437,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = RagialAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrjko.RagialAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/RagialAlarm/Modules";
 			};
 			name = Debug;
 		};
@@ -412,10 +450,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = RagialAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrjko.RagialAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/RagialAlarm/Modules";
 			};
 			name = Release;
 		};
@@ -484,6 +524,7 @@
 				70F829A01D0B6D360073AAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70F829A11D0B6D360073AAE4 /* Build configuration list for PBXNativeTarget "RagialAlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +533,7 @@
 				70F829A31D0B6D360073AAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70F829A41D0B6D360073AAE4 /* Build configuration list for PBXNativeTarget "RagialAlarmUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +542,7 @@
 				70F829A61D0B6D360073AAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
